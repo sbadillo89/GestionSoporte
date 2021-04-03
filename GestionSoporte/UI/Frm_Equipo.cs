@@ -187,7 +187,6 @@ namespace GestionSoporte.UI
                             return;
                         }
                         int _componente = (Int32)dtg_Componentes.Rows[e.RowIndex].Cells["colComponente"].Value;
-                        // dtg_Componentes.CurrentRow.Cells[e.ColumnIndex + 1].Selected = true;
                         SendKeys.Send("{TAB}");
                     }
                     else if (e.ColumnIndex == dtg_Componentes.Columns["colMarca"].Index)
